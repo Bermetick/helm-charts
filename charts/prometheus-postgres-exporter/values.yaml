@@ -260,3 +260,12 @@ extraManifests: []
 podDisruptionBudget:
   enabled: false
   maxUnavailable: 1
+
+
+config:
+ datasourceSecret
+    host: '34.46.146.183'
+    user: postgres
+    password: post123
+    port: "5432"
+    database: 'postgres'
